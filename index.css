@@ -1,0 +1,323 @@
+*{
+	font-size: 15px;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.Playfair{
+	font-family: 'Playfair Display', serif;
+}
+
+.Montserrat{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fw700{
+	font-weight: 700;
+}
+
+
+.fw500{
+	font-weight: 500;
+}
+
+body{
+	margin: 2em 15em 0 9em;
+}
+
+.header-h1{
+	font-size: 2.8em;
+	font-weight: 700;
+}
+
+.header-p{
+	width: 40em;
+	margin: 1.5em 2em 2.5em; 
+	font-size: .89em;
+}
+
+.header-img{
+	width: 65.5em;
+	height: 30em; 
+}
+
+.textArea{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.IngredientsInstructions{
+	width: 35.5em;
+}
+
+.ingredients h2{
+	font-size: 1.15em;
+	font-weight: 700;
+	margin: 1.5em 0;
+}
+
+.cheese i{
+	font-size: .8em;
+	font-weight: 400;
+}
+
+.list-text{
+	line-height: 2;
+}
+
+.list-flex{
+	display: flex;
+	margin: 0 0 1em 0;	
+	font-size: .8em;
+}
+
+.check-box{
+	width: 1.2em;
+	height: 1.2em;
+	padding: .5em .5em;
+	border: 2px solid #ccc;
+	border-radius: .2em;
+	margin: 0 1em 0 0;
+}
+
+.instructions-h2{
+	font-size: 1.2em;
+	font-weight: 700;
+	margin: 1.5em 0;
+}
+
+.instructions-flex{
+	display: flex;
+	margin: 2em 0;
+}
+
+.instructions-p{
+	font-size: 1em;
+}
+
+.instructions-number{
+	font-size: 1.2em;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 .6em 0 0;
+	color: #fff;
+	background: #eb9800;
+	border-radius: .15em;
+}
+
+.instructions-number h5{
+	padding: .32em .70em;
+}
+
+.info{
+	margin: 2em 0;
+	padding: .5em 1.5em;
+	box-shadow: 0 2px 12px 2px #cfcfdf;
+	height: 20.5em;
+}
+
+.info-div{
+	display: flex;
+	margin: 2em 1em;
+}
+
+.info-text{
+	margin: 0 .4em;
+}
+
+.info-text>h5{
+	font-size: .7em;
+	color: #acacac;
+	margin: 0 0 .35em 0;
+}
+
+.info-text>h6{
+	font-size: .95em;
+	color: #666;
+}
+
+.yellow{
+	color: #f0a83c;
+}
+
+.servings{
+	font-size: 2.5em;
+}
+
+.timing{
+	font-size: 2.4em;
+	color: #666;
+}
+
+footer{
+	margin: 1em 0;
+}
+
+.footer{
+	font-size: .7em;
+	color: #ccc;
+	display: flex;
+	justify-content: center; 
+}
+
+@media only screen and (max-width: 1025px){
+	
+	body{
+		margin: 2em 4em 0 4.8em;		
+	}
+
+	.header-img{
+		width: 58.6em;
+		height: 30em; 
+	}
+}
+
+@media only screen and (max-width: 768px){
+	
+	body{
+		margin: 2em 4em 0 4.8em;		
+	}
+
+	.header-h1{
+		font-size: 2.1em;
+	}
+
+	.header-p{
+		font-size: .89em;
+	}
+
+	.header-img{
+		width: 41em;
+		height: 21.5em; 
+	}
+
+	.textArea{
+		flex-wrap: wrap-reverse;
+	}
+	.info{
+		display: flex;
+		height: 6.8em;
+	}
+
+	.info-text>h5{
+		font-size: .60em;
+	}
+
+	.info-text>h6{
+		font-size: .86em;
+	}
+}
+
+@media only screen and (max-width: 425px){
+	
+	body{
+		margin: 2em 1em 0 1em;		
+	}
+
+	.header-h1{
+		font-size: 1.5em;
+	}
+
+	.header-p{
+		font-size: .79em;
+		width: 25em;
+	}
+
+	.header-img{
+		width: 25.2em;
+		height: 15em; 
+	}
+
+	.list-text{
+		font-size: 1.15em;
+	}
+
+	.instructions-p{
+		font-size: 1.19em;
+	}
+
+	.info{
+		justify-content: center;
+		flex-wrap: wrap;
+		height: 14em;
+	}
+
+	.info-text>h5{
+		font-size: .60em;
+	}
+
+	.info-text>h6{
+		font-size: .86em;
+	}
+
+	.servings{
+		font-size: 2em;
+	}
+
+	.timing{
+		font-size: 2em;
+	}
+	.footer{
+		font-size: .5em; 
+	}
+}
+
+@media only screen and (max-width: 375px){
+	
+	.header-img{
+		width: 21.9em;
+		height: 13.5em; 
+		border-radius: .5em;
+	}
+
+	.info{
+		margin: 3em 0;
+		height: 13em;
+	}
+
+	.info-text>h5{
+		font-size: .60em;
+	}
+
+	.info-text>h6{
+		font-size: .75em;
+	}
+
+	.servings{
+		font-size: 1.8em;
+	}
+
+	.timing{
+		font-size: 1.8em;
+	}
+}
+
+@media only screen and (max-width: 325px){
+
+	.header-p{
+		font-size: .79em;
+		width: 21em;
+	}
+
+	.header-img{
+		width: 18.5em;
+		height: 11.6em;
+	}
+
+	.list-text{
+		font-size: 1.05em;
+	}
+
+	.instructions-p{
+		font-size: 1em;
+	}
+	.info{
+		padding: .5em .5em;
+	}
+
+	.info-div{
+		margin: 2em .3em;
+	}
+}
